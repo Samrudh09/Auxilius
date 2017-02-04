@@ -1,4 +1,3 @@
-int cnt=0;
 void setup(){
   Serial.begin(9600);
   pinMode(2,INPUT);
@@ -19,19 +18,6 @@ void loop(){
     Serial.print(int(3));
     delay(100);
   }
-  
-  /*Serial.print(digitalRead(2));
-  delay(10);
-  Serial.print("\n");
-  Serial.print(digitalRead(3));
-  delay(10);
-  Serial.print("\n");
-  Serial.print(digitalRead(4));
-  Serial.print("\n");
-  delay(10);*/
-  /*Serial.print(cnt);
-  Serial.print("\n");
-  cnt=cnt+1;*/
  
  
 }
