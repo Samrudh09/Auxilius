@@ -7,12 +7,8 @@ print("Hello Welcome to the automated Internet Radio !!")
 print("Please select from the available radio streams :")
 print('The available channels are listed \t\n1.(62.4)-Weather Radio Canada\t\n2.(90.3)-Toronto Classic\t\n3.(96.3)-The New Classic FM')
 while(1==1):
-    #print arduinoSerialData.readline()
     user_RADinput=arduinoSerialData.read()
     for i in user_RADinput:
-        input_list=[]
-        input_list.append(int(i))
-        #print i
         new1=2
         if int(i)==1:
             url="http://audioplayer.wunderground.com:80/Tundraeh/innisfil.mp3"
