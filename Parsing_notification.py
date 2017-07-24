@@ -31,7 +31,6 @@ def sim():
 	end_t=start_t+10
 	print start_t,end_t
 	while 1:
-
 		if time.time()==end_t:
 			print "now"
 			send_email('auxiliusnotification1@gmail.com','','auxiliusnotification1@gmail.com','Test','Testing')
